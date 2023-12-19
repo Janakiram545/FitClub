@@ -1,0 +1,62 @@
+/* Benefits.css */
+
+.benefits-container {
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: middle center; /* 100% of the viewport height */
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .plan-dropdown {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .selected-plan {
+    margin-top: 20px;
+  }
+  
+  p {
+    color: #333;
+  }
+  
+  h3 {
+    color: #555;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+    color: #777;
+  }
+  
+  /* Style for the plan options */
+  #plan option {
+    color: #333;
+  }
+  
+  #plan option:disabled {
+    color: #aaa;
+  }
+  

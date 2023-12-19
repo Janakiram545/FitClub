@@ -1,0 +1,58 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: skyblue;
+    background-color: #ccc; /* Use your desired background color */
+}
+
+.login-form {
+    background-color: lightcyan;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: #000;
+    
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: #28a745; /* Use your desired button color */
+    color: #fff;
+}
+
+.btn-default {
+    background-color: #f8f9fa; /* Use your desired button color */
+    color: #000;
+    border: 1px solid #dee2e6;
+    margin-top: 10px;
+}
+
+.forgot-password-link {
+    display: block;
+    margin-top: 10px;
+    color: #007bff; /* Use your desired link color */
+    text-decoration: none;
+}

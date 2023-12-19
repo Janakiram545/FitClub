@@ -1,0 +1,40 @@
+/* ImageTextDisplay.css */
+
+.ImageTextDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ImageTextDisplay .content {
+    display: flex;
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+  }
+  
+  .ImageTextDisplay .image-container {
+    flex: 1;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  .ImageTextDisplay .text-container {
+    flex: 1;
+    margin-left: 10px;
+    text-align: left;
+  }
+  
+  .ImageTextDisplay img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add border radius for a fancy look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  .ImageTextDisplay p {
+    margin: 0;
+    font-size: 16px; /* Adjust the font size as needed */
+    line-height: 1.5;
+    color: #333; /* Adjust the text color as needed */
+  }
+  

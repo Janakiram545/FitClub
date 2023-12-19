@@ -1,0 +1,39 @@
+.header{
+    display:flex;
+
+}
+.he{
+    margin-top: 20px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    width: 10rem;
+    height: 3rem;
+    left: 30px;
+}
+
+.header-menu-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 20rem;
+    
+
+}
+
+
+.header-menu{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: red;
+
+}
+
+.header-menu>li:hover{
+    cursor: pointer;
+    color: var(--orange);
+    cursor: pointer;
+}

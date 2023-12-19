@@ -1,0 +1,22 @@
+/* Styles for ImageTextDisplay component */
+
+.image-text-display-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .image-container {
+    flex: 10%;
+    margin-right: 10px;
+    display: flex;
+  }
+  
+  .text-container {
+    flex: 1;
+    margin-left: 10px;
+    text-align: justify;
+    background-color: azure;
+  }
+  

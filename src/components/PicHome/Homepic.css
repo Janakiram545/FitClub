@@ -1,0 +1,41 @@
+.home-container {
+    position: relative;
+  }
+  
+  .home-image {
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    /* top: up 10%; */
+  }
+
+
+  .homepi{
+    width: 100%;
+    background-color: rgb(#3c3f45);
+    margin-right: 10rem;
+
+   
+
+  }
+
+  
+  
+
+  .head{
+    position: relative;
+  }
+  .home-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Adjust text color as needed */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .homepitext{
+    background-color:white;
+  }
